@@ -1,0 +1,14 @@
+
+train: /home/d24680021/Documents/yolo11-files/datasets/labeled_images/train/images
+val: /home/d24680021/Documents/yolo11-files/datasets/labeled_images/valid/images
+test: /home/d24680021/Documents/yolo11-files/datasets/labeled_images/test/images
+
+nc: 4
+names: ['cork', 'lamp_bulb', 'moon_pit', 'number_60']
+
+roboflow:
+  workspace: personal-workspace-kusbp
+  project: nthu-image-processing-termproj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-workspace-kusbp/nthu-image-processing-termproj/dataset/1
